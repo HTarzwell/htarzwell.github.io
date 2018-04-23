@@ -42,6 +42,16 @@ strong {
   color: rgba(46, 93, 53, 0.9);
 }
 
+.minorspan {
+  color: rgba(83, 117, 162, 0.9);
+}
+
+h1 strong {
+  background-color: rgba(239, 229, 237, 0.7);
+  border-radius: 3rem;
+  padding: 1rem;
+}
+
 h1,
 h2,
 h3,
@@ -60,7 +70,7 @@ h6 {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 section {
@@ -292,6 +302,12 @@ header.masthead p {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
+}
+
+h1 strong {
+  background-color: rgba(239, 229, 237, 0.7);
+  border-radius: 3rem;
+  padding: 1rem;
 }
 
 .text-primary {
