@@ -47,9 +47,9 @@ strong {
 }
 
 h1 strong {
-  background-color: rgba(239, 229, 237, 0.7);
+  /* background-color: rgba(239, 229, 237, 0.7);
   border-radius: 3rem;
-  padding: 1rem;
+  padding: 1rem; */
 }
 
 h1,
@@ -207,6 +207,9 @@ header.masthead hr {
 
 header.masthead h1 {
   font-size: 2rem;
+  background-color: rgba(20, 20, 20, 0.7);
+  border-radius: 3rem;
+  padding: 1rem;
 }
 
 header.masthead p {
@@ -228,12 +231,18 @@ header.masthead p {
   }
   header.masthead h1 {
     font-size: 3rem;
+    background-color: rgba(20, 20, 20, 0.7);
+    border-radius: 3rem;
+    padding: 1rem;
   }
 }
 
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 4rem;
+    background-color: rgba(20, 20, 20, 0.7);
+    border-radius: 3rem;
+    padding: 1rem;
   }
 }
 
@@ -305,9 +314,9 @@ header.masthead p {
 }
 
 h1 strong {
-  background-color: rgba(239, 229, 237, 0.7);
+  /* background-color: rgba(239, 229, 237, 0.7);
   border-radius: 3rem;
-  padding: 1rem;
+  padding: 1rem; */
 }
 
 .text-primary {

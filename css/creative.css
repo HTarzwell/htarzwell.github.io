@@ -167,10 +167,10 @@ img::-moz-selection {
 }
 
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
+  padding-top: 5rem;
+  padding-bottom: calc(5rem - 56px);
   background-image: url("../img/header.jpg");
-  background-position: center center;
+  background-position: center /* center */;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -184,6 +184,9 @@ header.masthead hr {
 
 header.masthead h1 {
   font-size: 2rem;
+  background-color: rgba(239, 229, 237, 0.7);
+  border-radius: 3rem;
+  padding: 1rem;
 }
 
 header.masthead p {
@@ -211,6 +214,9 @@ header.masthead p {
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 4rem;
+     background-color: rgba(239, 229, 237, 0.7);
+    border-radius: 3rem;
+    padding: 1rem;
   }
 }
 
