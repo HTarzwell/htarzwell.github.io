@@ -35,21 +35,7 @@ a:hover {
 }
 
 strong {
-  color: rgba(239, 229, 237, 0.9);
-}
-
-.mainspan {
-  color: rgba(46, 93, 53, 0.9);
-}
-
-.minorspan {
-  color: rgba(83, 117, 162, 0.9);
-}
-
-h1 strong {
-  /* background-color: rgba(239, 229, 237, 0.7);
-  border-radius: 3rem;
-  padding: 1rem; */
+  color: rgba(255, 255, 255, 0.9);
 }
 
 h1,
@@ -58,7 +44,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Hind', Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .bg-primary {
@@ -74,7 +60,8 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 5rem 0;
+  width: 100%;
 }
 
 .section-heading {
@@ -105,18 +92,19 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #EFE5ED;
-  font-family: 'Hind', Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Open Sans', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
+  width: 100%;
 }
 
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
   color: #5375A2;
-  font-family: 'Hind', Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -151,12 +139,13 @@ img::-moz-selection {
   #mainNav {
     border-color: transparent;
     background-color: transparent;
+    width: 100%;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #EFE5ED;
+    color: rgb(255, 255, 255);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
@@ -167,11 +156,11 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #EFE5ED;
+    color: rgb(255, 255, 255);
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #EFE5ED;
+    background-color: rgb(255, 255, 255);
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #5375A2;
@@ -190,8 +179,8 @@ img::-moz-selection {
 }
 
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
+  padding-top: 8rem;
+  padding-bottom: calc(8rem - 56px);
   background-image: url("../img/header.jpg");
   background-position: center center;
   -webkit-background-size: cover;
@@ -207,8 +196,9 @@ header.masthead hr {
 
 header.masthead h1 {
   font-size: 2rem;
-  background-color: rgba(20, 20, 20, 0.7);
-  border-radius: 3rem;
+  background-color: rgba(5, 6, 8, 0.7);
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem 1rem rgba(5, 6, 8, 0.7) inset; 
   padding: 1rem;
 }
 
@@ -231,8 +221,9 @@ header.masthead p {
   }
   header.masthead h1 {
     font-size: 3rem;
-    background-color: rgba(20, 20, 20, 0.7);
-    border-radius: 3rem;
+    background-color: rgba(5, 6, 8, 0.7);
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem 1rem rgba(5, 6, 8, 0.7) inset; 
     padding: 1rem;
   }
 }
@@ -240,8 +231,9 @@ header.masthead p {
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 4rem;
-    background-color: rgba(20, 20, 20, 0.7);
-    border-radius: 3rem;
+    background-color: rgba(5, 6, 8, 0.7);
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem 1rem rgba(5, 6, 8, 0.7) inset; 
     padding: 1rem;
   }
 }
@@ -250,17 +242,23 @@ header.masthead p {
   max-width: 400px;
 }
 
+a.portfolio-box {
+  display: flex;
+  justify-content: center;
+}
+
 .portfolio-box {
   position: relative;
   display: block;
   max-width: 650px;
+  max-height: 100vh;
   margin: 0 auto;
+  padding: 3rem;
 }
 
 .portfolio-box .portfolio-box-caption {
-  position: absolute;
   bottom: 0;
-  display: block;
+  padding: 20px;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -311,12 +309,6 @@ header.masthead p {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
-}
-
-h1 strong {
-  /* background-color: rgba(239, 229, 237, 0.7);
-  border-radius: 3rem;
-  padding: 1rem; */
 }
 
 .text-primary {
