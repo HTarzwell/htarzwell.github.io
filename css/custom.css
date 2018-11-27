@@ -5,8 +5,11 @@
 
 body,
 html {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 body {
@@ -61,7 +64,7 @@ h6 {
 
 section {
   padding: 5rem 0;
-  width: 100%;
+  width: auto;
 }
 
 .section-heading {
