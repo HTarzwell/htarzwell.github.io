@@ -250,10 +250,15 @@ a.portfolio-box {
 .portfolio-box {
   position: relative;
   display: block;
-  max-width: 650px;
-  max-height: 100vh;
   margin: 0 auto;
   padding: 3rem;
+}
+
+.portfolio-box .img-fluid {
+  width: auto;
+  height: auto;
+  max-width: 600px;
+  max-height: 400px;
 }
 
 .portfolio-box .portfolio-box-caption {
